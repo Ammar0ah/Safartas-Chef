@@ -7,21 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC05B18B2362324E0041BE16 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC05B18D2362324E0041BE16 /* Localizable.strings */; };
+		AC276E552335019800D9041B /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC276E542335019800D9041B /* Food.swift */; };
+		AC424EC823287FD100F0A184 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC424EC723287FD100F0A184 /* LoginViewController.swift */; };
+		AC51A685232A2A2800800B7D /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51A684232A2A2800800B7D /* Requests.swift */; };
+		AC51A68F232A61A600800B7D /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51A68E232A61A600800B7D /* Account.storyboard */; };
+		AC5A31D423322D950094715C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A31D323322D950094715C /* Menu.swift */; };
+		AC5A31D62332517F0094715C /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A31D52332517F0094715C /* AddMealViewController.swift */; };
+		AC5F1A4F23462AF6002500BA /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F1A4E23462AF6002500BA /* HistoryTableViewController.swift */; };
+		AC5F1A5123462B11002500BA /* BendingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F1A5023462B11002500BA /* BendingTableViewController.swift */; };
+		AC5F1A5323462B1F002500BA /* CurrentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F1A5223462B1F002500BA /* CurrentTableViewController.swift */; };
+		AC5F1A5523462B5B002500BA /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F1A5423462B5B002500BA /* OrdersViewController.swift */; };
+		AC5F1A5823464F44002500BA /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5F1A5723464F44002500BA /* OrderCell.xib */; };
+		AC5F1A5A23464F68002500BA /* OrderCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F1A5923464F68002500BA /* OrderCellTableViewCell.swift */; };
+		AC64C73E232B92FF0024BDDD /* ProceedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64C73D232B92FF0024BDDD /* ProceedViewController.swift */; };
+		AC6DE99B2329298C008C4792 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6DE99A2329298C008C4792 /* LocationTableViewController.swift */; };
+		AC6DE99D232932E6008C4792 /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6DE99C232932E6008C4792 /* Chef.swift */; };
+		AC8598762362CECF00C7DCDB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8598752362CECF00C7DCDB /* ProfileViewController.swift */; };
+		ACA9AC63232DF16B0063D623 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9AC62232DF16B0063D623 /* FoodViewController.swift */; };
+		ACA9AC68232E0C180063D623 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9AC66232E0C180063D623 /* FoodTableViewCell.swift */; };
+		ACA9AC69232E0C180063D623 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA9AC67232E0C180063D623 /* FoodTableViewCell.xib */; };
+		ACD5663F232CB2480036E023 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD5663E232CB2480036E023 /* Menu.storyboard */; };
+		ACD56642232CC3B10036E023 /* EditMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD56641232CC3B10036E023 /* EditMenuViewController.swift */; };
+		ACD7CB89232BD1C300D72642 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB88232BD1C300D72642 /* NewPasswordViewController.swift */; };
+		ACD7CB8B232BD1ED00D72642 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB8A232BD1ED00D72642 /* MenuViewController.swift */; };
+		ACD7CB91232BD76100D72642 /* customNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB90232BD76100D72642 /* customNavBar.swift */; };
+		ACD9D519233E826E002FAC6F /* ActiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9D518233E826E002FAC6F /* ActiveTableViewCell.swift */; };
+		ACD9D51B233E8DC1002FAC6F /* ActiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD9D51A233E8DC1002FAC6F /* ActiveTableViewCell.xib */; };
+		ACE4ACE6234100BF00E05715 /* ChefInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4ACE5234100BF00E05715 /* ChefInfo.swift */; };
+		ACEE1563232F7BDA00FBB70D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE1562232F7BDA00FBB70D /* AboutViewController.swift */; };
+		ACF14CEF23333E5100052E36 /* EditMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF14CEE23333E5100052E36 /* EditMenuCollectionViewCell.swift */; };
 		ACF219FD23279762008E55F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF219FC23279762008E55F6 /* AppDelegate.swift */; };
-		ACF219FF23279762008E55F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF219FE23279762008E55F6 /* ViewController.swift */; };
+		ACF219FF23279762008E55F6 /* ChooseLangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF219FE23279762008E55F6 /* ChooseLangViewController.swift */; };
 		ACF21A0223279762008E55F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF21A0023279762008E55F6 /* Main.storyboard */; };
 		ACF21A0423279762008E55F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF21A0323279762008E55F6 /* Assets.xcassets */; };
 		ACF21A0723279762008E55F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF21A0523279762008E55F6 /* LaunchScreen.storyboard */; };
+		ACF21A132327A0FD008E55F6 /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF21A122327A0FD008E55F6 /* customTextField.swift */; };
+		ACF21A172327A423008E55F6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF21A142327A423008E55F6 /* Extensions.swift */; };
+		ACF21A182327A423008E55F6 /* customNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF21A152327A423008E55F6 /* customNavigationController.swift */; };
+		ACF21A192327A423008E55F6 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF21A162327A423008E55F6 /* customButton.swift */; };
+		ACF21A1B2327D0E9008E55F6 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF21A1A2327D0E9008E55F6 /* CarouselViewController.swift */; };
+		ACF21A1F2327E7B6008E55F6 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF21A1E2327E7B6008E55F6 /* iCarousel.m */; };
+		ACF21A222327EB84008E55F6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF21A212327EB84008E55F6 /* RegisterViewController.swift */; };
+		F9123E551B3E5AD48E077A58 /* Pods_Safartas_Chef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CA28846D13EC49BC9FE310 /* Pods_Safartas_Chef.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32CA28846D13EC49BC9FE310 /* Pods_Safartas_Chef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safartas_Chef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7F62EA0C204AEC4E3982B6 /* Pods-Safartas Chef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safartas Chef.debug.xcconfig"; path = "Target Support Files/Pods-Safartas Chef/Pods-Safartas Chef.debug.xcconfig"; sourceTree = "<group>"; };
+		AC05B18F236233C00041BE16 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC276E542335019800D9041B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		AC424EC723287FD100F0A184 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AC51A684232A2A2800800B7D /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		AC51A68E232A61A600800B7D /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		AC5A31D323322D950094715C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AC5A31D52332517F0094715C /* AddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
+		AC5F1A4E23462AF6002500BA /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		AC5F1A5023462B11002500BA /* BendingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BendingTableViewController.swift; sourceTree = "<group>"; };
+		AC5F1A5223462B1F002500BA /* CurrentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTableViewController.swift; sourceTree = "<group>"; };
+		AC5F1A5423462B5B002500BA /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		AC5F1A5723464F44002500BA /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		AC5F1A5923464F68002500BA /* OrderCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellTableViewCell.swift; sourceTree = "<group>"; };
+		AC64C73D232B92FF0024BDDD /* ProceedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceedViewController.swift; sourceTree = "<group>"; };
+		AC6DE99A2329298C008C4792 /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		AC6DE99C232932E6008C4792 /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		AC8598732362CCF900C7DCDB /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC8598752362CECF00C7DCDB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ACA9AC62232DF16B0063D623 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		ACA9AC66232E0C180063D623 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		ACA9AC67232E0C180063D623 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		ACD5663E232CB2480036E023 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		ACD56641232CC3B10036E023 /* EditMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuViewController.swift; sourceTree = "<group>"; };
+		ACD7CB88232BD1C300D72642 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		ACD7CB8A232BD1ED00D72642 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		ACD7CB90232BD76100D72642 /* customNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customNavBar.swift; sourceTree = "<group>"; };
+		ACD9D518233E826E002FAC6F /* ActiveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTableViewCell.swift; sourceTree = "<group>"; };
+		ACD9D51A233E8DC1002FAC6F /* ActiveTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActiveTableViewCell.xib; sourceTree = "<group>"; };
+		ACDA91CB2330C03C00A03E07 /* Safartas Chef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safartas Chef.entitlements"; sourceTree = "<group>"; };
+		ACE4ACE5234100BF00E05715 /* ChefInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefInfo.swift; sourceTree = "<group>"; };
+		ACEE1562232F7BDA00FBB70D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		ACF14CEE23333E5100052E36 /* EditMenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		ACF219F923279762008E55F6 /* Safartas Chef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safartas Chef.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF219FC23279762008E55F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACF219FE23279762008E55F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF219FE23279762008E55F6 /* ChooseLangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLangViewController.swift; sourceTree = "<group>"; };
 		ACF21A0123279762008E55F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF21A0323279762008E55F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF21A0623279762008E55F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACF21A0823279762008E55F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF21A122327A0FD008E55F6 /* customTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
+		ACF21A142327A423008E55F6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ACF21A152327A423008E55F6 /* customNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customNavigationController.swift; sourceTree = "<group>"; };
+		ACF21A162327A423008E55F6 /* customButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
+		ACF21A1A2327D0E9008E55F6 /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		ACF21A1C2327E7B5008E55F6 /* Safartas Chef-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Safartas Chef-Bridging-Header.h"; sourceTree = "<group>"; };
+		ACF21A1D2327E7B6008E55F6 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		ACF21A1E2327E7B6008E55F6 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		ACF21A212327EB84008E55F6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E89D05B9D93439E1EDAF9434 /* Pods-Safartas Chef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safartas Chef.release.xcconfig"; path = "Target Support Files/Pods-Safartas Chef/Pods-Safartas Chef.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +111,135 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9123E551B3E5AD48E077A58 /* Pods_Safartas_Chef.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08EE65B6E05255B5401CCA7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F7F62EA0C204AEC4E3982B6 /* Pods-Safartas Chef.debug.xcconfig */,
+				E89D05B9D93439E1EDAF9434 /* Pods-Safartas Chef.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1D4BA868F7C970EA7A5F8F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32CA28846D13EC49BC9FE310 /* Pods_Safartas_Chef.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC276E532334FB9000D9041B /* Food  */ = {
+			isa = PBXGroup;
+			children = (
+				ACA9AC62232DF16B0063D623 /* FoodViewController.swift */,
+			);
+			path = "Food ";
+			sourceTree = "<group>";
+		};
+		AC424EC623287FB700F0A184 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				ACF21A212327EB84008E55F6 /* RegisterViewController.swift */,
+				AC424EC723287FD100F0A184 /* LoginViewController.swift */,
+				AC6DE99A2329298C008C4792 /* LocationTableViewController.swift */,
+				AC64C73D232B92FF0024BDDD /* ProceedViewController.swift */,
+				ACD7CB88232BD1C300D72642 /* NewPasswordViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		AC51A682232A2A0100800B7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACF21A0823279762008E55F6 /* Info.plist */,
+				ACF219FC23279762008E55F6 /* AppDelegate.swift */,
+				ACF21A0323279762008E55F6 /* Assets.xcassets */,
+				ACF21A0523279762008E55F6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC5F1A4D23462AD2002500BA /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				AC5F1A4E23462AF6002500BA /* HistoryTableViewController.swift */,
+				AC5F1A5023462B11002500BA /* BendingTableViewController.swift */,
+				AC5F1A5223462B1F002500BA /* CurrentTableViewController.swift */,
+				AC5F1A5423462B5B002500BA /* OrdersViewController.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		AC5F1A5623464F10002500BA /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				ACA9AC66232E0C180063D623 /* FoodTableViewCell.swift */,
+				ACA9AC67232E0C180063D623 /* FoodTableViewCell.xib */,
+				ACD9D518233E826E002FAC6F /* ActiveTableViewCell.swift */,
+				ACD9D51A233E8DC1002FAC6F /* ActiveTableViewCell.xib */,
+				AC5F1A5723464F44002500BA /* OrderCell.xib */,
+				AC5F1A5923464F68002500BA /* OrderCellTableViewCell.swift */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		AC8598742362CEB200C7DCDB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AC8598752362CECF00C7DCDB /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		ACD56640232CC39F0036E023 /* Edit Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ACF14CF023334D3600052E36 /* Edit Menu Cell */,
+				ACD56641232CC3B10036E023 /* EditMenuViewController.swift */,
+				AC5A31D52332517F0094715C /* AddMealViewController.swift */,
+			);
+			path = "Edit Menu";
+			sourceTree = "<group>";
+		};
+		ACD7CB87232BD0C700D72642 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ACD56640232CC39F0036E023 /* Edit Menu */,
+				ACD7CB8A232BD1ED00D72642 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		ACE4ACE22340FFD400E05715 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				ACE4ACE5234100BF00E05715 /* ChefInfo.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		ACF14CF023334D3600052E36 /* Edit Menu Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ACF14CEE23333E5100052E36 /* EditMenuCollectionViewCell.swift */,
+			);
+			path = "Edit Menu Cell";
+			sourceTree = "<group>";
+		};
 		ACF219F023279762008E55F6 = {
 			isa = PBXGroup;
 			children = (
 				ACF219FB23279762008E55F6 /* Safartas Chef */,
 				ACF219FA23279762008E55F6 /* Products */,
+				08EE65B6E05255B5401CCA7F /* Pods */,
+				1D4BA868F7C970EA7A5F8F8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +254,76 @@
 		ACF219FB23279762008E55F6 /* Safartas Chef */ = {
 			isa = PBXGroup;
 			children = (
-				ACF219FC23279762008E55F6 /* AppDelegate.swift */,
-				ACF219FE23279762008E55F6 /* ViewController.swift */,
-				ACF21A0023279762008E55F6 /* Main.storyboard */,
-				ACF21A0323279762008E55F6 /* Assets.xcassets */,
-				ACF21A0523279762008E55F6 /* LaunchScreen.storyboard */,
-				ACF21A0823279762008E55F6 /* Info.plist */,
+				ACDA91CB2330C03C00A03E07 /* Safartas Chef.entitlements */,
+				ACE4ACE22340FFD400E05715 /* Responses */,
+				ACF21A0E23279907008E55F6 /* Models */,
+				ACF21A0F23279917008E55F6 /* Views */,
+				ACF21A1023279923008E55F6 /* Controllers */,
+				AC51A682232A2A0100800B7D /* Resources */,
+				ACF21A1C2327E7B5008E55F6 /* Safartas Chef-Bridging-Header.h */,
+				AC51A684232A2A2800800B7D /* Requests.swift */,
+				AC05B18D2362324E0041BE16 /* Localizable.strings */,
 			);
 			path = "Safartas Chef";
+			sourceTree = "<group>";
+		};
+		ACF21A0E23279907008E55F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC6DE99C232932E6008C4792 /* Chef.swift */,
+				AC5A31D323322D950094715C /* Menu.swift */,
+				AC276E542335019800D9041B /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACF21A0F23279917008E55F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC51A68E232A61A600800B7D /* Account.storyboard */,
+				ACD5663E232CB2480036E023 /* Menu.storyboard */,
+				ACF21A0023279762008E55F6 /* Main.storyboard */,
+				ACF21A202327E7BF008E55F6 /* iCarousel */,
+				ACF21A112327A0DF008E55F6 /* layout */,
+				AC5F1A5623464F10002500BA /* Nibs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACF21A1023279923008E55F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC8598742362CEB200C7DCDB /* Profile */,
+				AC5F1A4D23462AD2002500BA /* Orders */,
+				AC276E532334FB9000D9041B /* Food  */,
+				ACD7CB87232BD0C700D72642 /* Menu */,
+				AC424EC623287FB700F0A184 /* Account */,
+				ACF219FE23279762008E55F6 /* ChooseLangViewController.swift */,
+				ACF21A1A2327D0E9008E55F6 /* CarouselViewController.swift */,
+				ACEE1562232F7BDA00FBB70D /* AboutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACF21A112327A0DF008E55F6 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				ACF21A162327A423008E55F6 /* customButton.swift */,
+				ACF21A152327A423008E55F6 /* customNavigationController.swift */,
+				ACF21A142327A423008E55F6 /* Extensions.swift */,
+				ACF21A122327A0FD008E55F6 /* customTextField.swift */,
+				ACD7CB90232BD76100D72642 /* customNavBar.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		ACF21A202327E7BF008E55F6 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				ACF21A1D2327E7B6008E55F6 /* iCarousel.h */,
+				ACF21A1E2327E7B6008E55F6 /* iCarousel.m */,
+			);
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACF21A0B23279762008E55F6 /* Build configuration list for PBXNativeTarget "Safartas Chef" */;
 			buildPhases = (
+				EFBAD832BCB9574715A70678 /* [CP] Check Pods Manifest.lock */,
 				ACF219F523279762008E55F6 /* Sources */,
 				ACF219F623279762008E55F6 /* Frameworks */,
 				ACF219F723279762008E55F6 /* Resources */,
+				E6E36194A2BFBE88AC2D4898 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +360,12 @@
 				TargetAttributes = {
 					ACF219F823279762008E55F6 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -106,6 +376,8 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
+				ar,
 			);
 			mainGroup = ACF219F023279762008E55F6;
 			productRefGroup = ACF219FA23279762008E55F6 /* Products */;
@@ -122,27 +394,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD5663F232CB2480036E023 /* Menu.storyboard in Resources */,
 				ACF21A0723279762008E55F6 /* LaunchScreen.storyboard in Resources */,
+				AC5F1A5823464F44002500BA /* OrderCell.xib in Resources */,
+				AC51A68F232A61A600800B7D /* Account.storyboard in Resources */,
+				AC05B18B2362324E0041BE16 /* Localizable.strings in Resources */,
 				ACF21A0423279762008E55F6 /* Assets.xcassets in Resources */,
+				ACD9D51B233E8DC1002FAC6F /* ActiveTableViewCell.xib in Resources */,
 				ACF21A0223279762008E55F6 /* Main.storyboard in Resources */,
+				ACA9AC69232E0C180063D623 /* FoodTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6E36194A2BFBE88AC2D4898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Safartas Chef/Pods-Safartas Chef-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CheckBox/CheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/Device/Device.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceLayout/DeviceLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PWSwitch/PWSwitch.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewPager-Swift/ViewPager_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Device.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWSwitch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewPager_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Safartas Chef/Pods-Safartas Chef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBAD832BCB9574715A70678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safartas Chef-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACF219F523279762008E55F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF219FF23279762008E55F6 /* ViewController.swift in Sources */,
+				ACF21A222327EB84008E55F6 /* RegisterViewController.swift in Sources */,
+				ACF21A1B2327D0E9008E55F6 /* CarouselViewController.swift in Sources */,
+				ACF219FF23279762008E55F6 /* ChooseLangViewController.swift in Sources */,
+				ACEE1563232F7BDA00FBB70D /* AboutViewController.swift in Sources */,
+				AC5F1A4F23462AF6002500BA /* HistoryTableViewController.swift in Sources */,
 				ACF219FD23279762008E55F6 /* AppDelegate.swift in Sources */,
+				AC8598762362CECF00C7DCDB /* ProfileViewController.swift in Sources */,
+				AC51A685232A2A2800800B7D /* Requests.swift in Sources */,
+				AC64C73E232B92FF0024BDDD /* ProceedViewController.swift in Sources */,
+				ACE4ACE6234100BF00E05715 /* ChefInfo.swift in Sources */,
+				AC276E552335019800D9041B /* Food.swift in Sources */,
+				ACF21A192327A423008E55F6 /* customButton.swift in Sources */,
+				ACD7CB8B232BD1ED00D72642 /* MenuViewController.swift in Sources */,
+				ACF21A132327A0FD008E55F6 /* customTextField.swift in Sources */,
+				ACD7CB89232BD1C300D72642 /* NewPasswordViewController.swift in Sources */,
+				AC5F1A5323462B1F002500BA /* CurrentTableViewController.swift in Sources */,
+				AC6DE99B2329298C008C4792 /* LocationTableViewController.swift in Sources */,
+				AC6DE99D232932E6008C4792 /* Chef.swift in Sources */,
+				ACF21A1F2327E7B6008E55F6 /* iCarousel.m in Sources */,
+				ACA9AC63232DF16B0063D623 /* FoodViewController.swift in Sources */,
+				ACF21A182327A423008E55F6 /* customNavigationController.swift in Sources */,
+				AC5A31D423322D950094715C /* Menu.swift in Sources */,
+				AC424EC823287FD100F0A184 /* LoginViewController.swift in Sources */,
+				AC5F1A5A23464F68002500BA /* OrderCellTableViewCell.swift in Sources */,
+				AC5F1A5123462B11002500BA /* BendingTableViewController.swift in Sources */,
+				ACD9D519233E826E002FAC6F /* ActiveTableViewCell.swift in Sources */,
+				ACF14CEF23333E5100052E36 /* EditMenuCollectionViewCell.swift in Sources */,
+				ACF21A172327A423008E55F6 /* Extensions.swift in Sources */,
+				AC5F1A5523462B5B002500BA /* OrdersViewController.swift in Sources */,
+				ACA9AC68232E0C180063D623 /* FoodTableViewCell.swift in Sources */,
+				AC5A31D62332517F0094715C /* AddMealViewController.swift in Sources */,
+				ACD7CB91232BD76100D72642 /* customNavBar.swift in Sources */,
+				ACD56642232CC3B10036E023 /* EditMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AC05B18D2362324E0041BE16 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC05B18F236233C00041BE16 /* ar */,
+				AC8598732362CCF900C7DCDB /* tr */,
+			);
+			name = Localizable.strings;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		ACF21A0023279762008E55F6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +622,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,17 +676,22 @@
 		};
 		ACF21A0C23279762008E55F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7F62EA0C204AEC4E3982B6 /* Pods-Safartas Chef.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Safartas Chef/Safartas Chef.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R74AP992LY;
-				INFOPLIST_FILE = "Safartas Chef/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Safartas Chef/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ammar0ah.Safartas-Chef";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Safartas Chef/Safartas Chef-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +699,21 @@
 		};
 		ACF21A0D23279762008E55F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89D05B9D93439E1EDAF9434 /* Pods-Safartas Chef.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Safartas Chef/Safartas Chef.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R74AP992LY;
-				INFOPLIST_FILE = "Safartas Chef/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Safartas Chef/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ammar0ah.Safartas-Chef";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Safartas Chef/Safartas Chef-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Safartas Chef
+
+  Created by Ammar Al-Helali on 10/24/19.
+  Copyright © 2019 Ammar Al-Helali. All rights reserved.
+*/
+"NO Connection!" = "لايوجد اتصال";
+"time" = "الوقت";
+"enough for" = "كافي لـ";
+"price" = "السعر";
+"Açıklaman yaz....." = "الوصف";
+"Siparişin tipi seçiniz" = "اختر نوع الطبق";
+"Menü Düzenle" = "قائمة التعديل";
+"Sipariş" = "الطلبات";
+"hakkında" = "حول";
+"Actif" = "نشط";
+"Çıkış" = "خروج";
+"Minimum sipariş" = "الطلب الأدنى";
+"Dil" = "اللغة";
+"Çalışma saatleri" = "ساعات العمل";
+"Kaşçı adı" = "اسم الطاهي";
+"Bayt Almoona" = "بيت المونة";
+"Telefon Numarasi" = "رقم الموبايل";
+"şifre" = "كلمة السر";
+"Yeni Şifre" = "كلمة السر الجديدة";
+"Yeni şifreyi tekrar girin" = "تأكيد كلمة المرة";
+"PIN Kod" = "PIN رمز";
+"Log In" = "تسجيل الدخول";
+"Telefon Numarasi" = "رقم الموبايل";
+"şifre" = "كلمة المرور";
+"Hesapın yok mu?" = "ليس لديك حساب؟";
+"İlerlemek" = "تأكيد";
+"İsim" = "الاسم";
+"Tekrar şifre" = "تأكيد كلمة المرور";
+"Şimdiki" = "الموقع";
+"Yap" = "إنشاء";
+"Hisapınız var mı?" = "لديك حساب؟";
+"Şifremi unuttun?" = "نسيت كلمة المرور؟";
+"Başvuru" = "تسجيل";
+
+
+
