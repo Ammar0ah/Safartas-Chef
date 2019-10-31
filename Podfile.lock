@@ -1,0 +1,81 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - CheckBox (1.0.0)
+  - Device (3.1.2)
+  - DeviceLayout (0.4.0):
+    - Device (~> 3.1.2)
+  - DropDown (2.3.13)
+  - ImageSlideshow (1.8.0):
+    - ImageSlideshow/Core (= 1.8.0)
+  - ImageSlideshow/Core (1.8.0)
+  - Material (3.1.6):
+    - Material/Core (= 3.1.6)
+  - Material/Core (3.1.6):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.1):
+    - Motion/Core (= 3.1.1)
+  - Motion/Core (3.1.1)
+  - ObjectMapper (3.5.1)
+  - PWSwitch (1.1.2)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+  - ViewPager-Swift (2.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - CheckBox
+  - DeviceLayout
+  - DropDown
+  - ImageSlideshow (~> 1.6)
+  - Material (~> 3.1.0)
+  - PWSwitch
+  - SDWebImage
+  - SVProgressHUD
+  - SwiftyJSON
+  - ViewPager-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - CheckBox
+    - Device
+    - DeviceLayout
+    - DropDown
+    - ImageSlideshow
+    - Material
+    - Motion
+    - ObjectMapper
+    - PWSwitch
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftyJSON
+    - ViewPager-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  CheckBox: c6f39d7dd72be096896205584b5943e4743a767b
+  Device: 62242076214c30fb5760174b3601cefafa70a481
+  DeviceLayout: 3db697bd179787b79b54d7adfe09f73403e53e80
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  ImageSlideshow: 197130fe349aafa9446f54277c792551d41eadf9
+  Material: 9b30613deb1b79487eeede5e4f90cbff084311ea
+  Motion: f115b33f36cc52472a25a965daa89b3859817de0
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  PWSwitch: 399db6ef5dd8417f9a1e9f82cb70602f10a6c38f
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  ViewPager-Swift: 7d83f5d4888a0fa808c08c8405ba84e603a2eb58
+
+PODFILE CHECKSUM: a6a96838e7a9fbe798fb5d30f39fa5e7fdf55dcb
+
+COCOAPODS: 1.6.1
